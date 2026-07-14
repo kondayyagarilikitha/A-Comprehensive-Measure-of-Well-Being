@@ -1,0 +1,252 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#eef3f8;
+    color:#222;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+    background:linear-gradient(90deg,#0b132b,#1c2541)!important;
+    padding:15px 30px;
+}
+
+.navbar-brand{
+    font-weight:700;
+    font-size:30px;
+}
+
+.nav-link{
+    color:white!important;
+    margin-left:20px;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#4facfe!important;
+}
+
+/* ================= CARDS ================= */
+
+.card{
+    border:none;
+    border-radius:20px;
+    background:white;
+    transition:.35s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15)!important;
+}
+
+/* ================= TITLES ================= */
+
+h3{
+    font-weight:700;
+}
+
+/* ================= INPUTS ================= */
+
+.form-control{
+    border-radius:12px;
+    height:52px;
+    border:1px solid #d7d7d7;
+    transition:.3s;
+}
+
+.form-control:focus{
+    box-shadow:0 0 12px rgba(0,123,255,.25);
+    border-color:#0d6efd;
+}
+
+/* ================= BUTTON ================= */
+
+.btn-primary{
+
+    border:none;
+
+    border-radius:12px;
+
+    background:linear-gradient(90deg,#2563eb,#1d4ed8);
+
+    padding:12px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    transition:.35s;
+
+}
+
+.btn-primary:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 25px rgba(37,99,235,.35);
+
+}
+
+/* ================= RESULT ================= */
+
+.display-2{
+
+    font-weight:700;
+
+}
+
+.badge{
+
+    padding:12px 25px;
+
+    border-radius:30px;
+
+}
+
+/* ================= PROGRESS ================= */
+
+.progress{
+
+    border-radius:25px;
+
+    background:#dfe6ef;
+
+}
+
+.progress-bar{
+
+    font-size:15px;
+
+    font-weight:600;
+
+}
+
+/* ================= MINI CARDS ================= */
+
+.mini-card{
+
+    background:#f8fbff;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    transition:.35s;
+
+    border:1px solid #edf1f7;
+
+}
+
+.mini-card:hover{
+
+    background:white;
+
+    transform:scale(1.05);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+
+}
+
+.mini-card h4{
+
+    font-weight:700;
+
+    color:#2563eb;
+
+}
+
+.mini-card p{
+
+    color:#666;
+
+    margin-top:10px;
+
+}
+
+/* ================= TABLE ================= */
+
+.table td{
+
+    padding:12px;
+
+}
+
+/* ================= FOOTER ================= */
+
+footer{
+
+    color:#666;
+
+    font-size:15px;
+
+}
+
+/* ================= CHART ================= */
+
+canvas{
+
+    margin-top:20px;
+
+}
+
+/* ================= ANIMATION ================= */
+
+.card{
+
+    animation:fadeUp .7s ease;
+
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(25px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:992px){
+
+.navbar-brand{
+
+font-size:22px;
+
+}
+
+.display-2{
+
+font-size:55px;
+
+}
+
+.card{
+
+margin-bottom:20px;
+
+}
+
+}
